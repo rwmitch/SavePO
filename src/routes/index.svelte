@@ -15,6 +15,10 @@
     font-family: 'Verdana', sans-serif;
   }
 
+  :global(body) {
+    background-color: #ccc;
+  }
+
   .title {
     width: 100%;
     text-align: center;
@@ -31,6 +35,6 @@
   }
 
   .poster img {
-    width: calc(100vw / 3 - 1vw);
+    width: calc(100vw / 4 - 1vw);
   }
 </style>
