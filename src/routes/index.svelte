@@ -7,6 +7,9 @@
   <a class="poster" href="/Click_and_Drop.pdf">
     <img src="Click_and_Drop.png" alt="Click and Drop Poster" />
   </a>
+  <a class="poster" href="/ByeLocal.pdf">
+    <img src="ByeLocal.png" alt="Bye Local Poster" />
+  </a>
 </ul>
 
 
