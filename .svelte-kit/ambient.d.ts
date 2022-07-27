@@ -48,6 +48,7 @@ declare module '$env/static/private' {
 	export const npm_package_name: string;
 	export const npm_config_prefix: string;
 	export const USER: string;
+	export const npm_config_host: string;
 	export const npm_lifecycle_event: string;
 	export const SHLVL: string;
 	export const _tide_color_separator_same_color: string;

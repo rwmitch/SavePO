@@ -26,6 +26,7 @@
 
   :global(body) {
     background-color: #ccc;
+    margin: 0;
   }
 
   .title {
@@ -44,6 +45,6 @@
   }
 
   .poster img {
-    width: calc(100vw / 4 - 1vw);
+    width: calc(100vw / 3 - 1vw);
   }
 </style>

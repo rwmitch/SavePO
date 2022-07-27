@@ -131,6 +131,9 @@ export const npm_config_prefix = "/home/rwm/.local/share/nvm/v18.6.0";
 /** @type {import('$env/static/private').USER} */
 export const USER = "rwm";
 
+/** @type {import('$env/static/private').npm_config_host} */
+export const npm_config_host = "true";
+
 /** @type {import('$env/static/private').npm_lifecycle_event} */
 export const npm_lifecycle_event = "dev";
 
