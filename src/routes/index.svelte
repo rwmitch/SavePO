@@ -10,6 +10,12 @@
   <a class="poster" href="/ByeLocal.pdf">
     <img src="ByeLocal.png" alt="Bye Local Poster" />
   </a>
+  <a class="poster" href="/SteveFrogatt_Banking.jpg">
+    <img src="SteveFrogatt_Banking.jpg" alt="Banking Poster" />
+  </a>
+  <a class="poster" href="/SteveFrogatt_NominalFee.jpg">
+    <img src="SteveFrogatt_NominalFee.jpg" alt="Nominal Poster" />
+  </a>
 </ul>
 
 
