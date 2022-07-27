@@ -1,0 +1,75 @@
+// this file is generated — do not edit it
+declare module '$env/static/public' {
+
+}
+
+declare module '$env/static/private' {
+	export const SHELL: string;
+	export const npm_command: string;
+	export const npm_config_userconfig: string;
+	export const COLORTERM: string;
+	export const npm_config_cache: string;
+	export const I3SOCK: string;
+	export const NODE: string;
+	export const LC_ADDRESS: string;
+	export const LC_NAME: string;
+	export const COLOR: string;
+	export const npm_config_local_prefix: string;
+	export const LC_MONETARY: string;
+	export const KITTY_PID: string;
+	export const XCURSOR_SIZE: string;
+	export const npm_config_globalconfig: string;
+	export const EDITOR: string;
+	export const XDG_SEAT: string;
+	export const PWD: string;
+	export const LOGNAME: string;
+	export const XDG_SESSION_TYPE: string;
+	export const PNPM_HOME: string;
+	export const npm_config_init_module: string;
+	export const nvm_current_version: string;
+	export const SYSTEMD_EXEC_PID: string;
+	export const _: string;
+	export const MOTD_SHOWN: string;
+	export const HOME: string;
+	export const LANG: string;
+	export const LC_PAPER: string;
+	export const npm_package_version: string;
+	export const SWAYSOCK: string;
+	export const WAYLAND_DISPLAY: string;
+	export const KITTY_WINDOW_ID: string;
+	export const INVOCATION_ID: string;
+	export const _tide_location_color: string;
+	export const INIT_CWD: string;
+	export const npm_lifecycle_script: string;
+	export const XDG_SESSION_CLASS: string;
+	export const TERM: string;
+	export const LC_IDENTIFICATION: string;
+	export const TERMINFO: string;
+	export const npm_package_name: string;
+	export const npm_config_prefix: string;
+	export const USER: string;
+	export const npm_lifecycle_event: string;
+	export const SHLVL: string;
+	export const _tide_color_separator_same_color: string;
+	export const LC_TELEPHONE: string;
+	export const LC_MEASUREMENT: string;
+	export const XDG_VTNR: string;
+	export const XDG_SESSION_ID: string;
+	export const npm_config_user_agent: string;
+	export const npm_execpath: string;
+	export const XDG_RUNTIME_DIR: string;
+	export const LC_TIME: string;
+	export const npm_package_json: string;
+	export const BROWSER: string;
+	export const npm_config_noproxy: string;
+	export const PATH: string;
+	export const npm_config_metrics_registry: string;
+	export const npm_config_node_gyp: string;
+	export const DBUS_SESSION_BUS_ADDRESS: string;
+	export const npm_config_global_prefix: string;
+	export const MAIL: string;
+	export const KITTY_INSTALLATION_DIR: string;
+	export const npm_node_execpath: string;
+	export const npm_config_engine_strict: string;
+	export const LC_NUMERIC: string;
+}
