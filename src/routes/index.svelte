@@ -1,4 +1,4 @@
-<script lang="ts">
+<!--<script lang="ts">
   import axios from "axios";
 
   const handleSubmit = (e: SubmitEvent) => {
@@ -56,5 +56,24 @@
 
   label {
     text-align: right;
+  }
+</style>-->
+
+
+<h1 class="title">#SaveYourPO</h1>
+<p>Post Offices across the country are being paid less than minimum wage by Post Office Ltd (POL), leading to the closure of many branches.</p>
+<p>We have just two simple demands:</p>
+<section class="demands">
+  <article class="demand">
+    <p class="demand-headline">Increase remuneration rates for all transactions</p>
+  </article>
+  <article class="demand">
+    <p class="demand-headline">Pay all branches the same rate as Main branches</p>
+  </article>
+</section>
+
+<style lang="scss">
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 </style>

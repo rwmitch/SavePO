@@ -6,7 +6,7 @@ export const SHELL = "/usr/bin/fish";
 export const COLORTERM = "truecolor";
 
 /** @type {import('$env/static/private').I3SOCK} */
-export const I3SOCK = "/run/user/1000/sway-ipc.1000.651.sock";
+export const I3SOCK = "/run/user/1000/sway-ipc.1000.641.sock";
 
 /** @type {import('$env/static/private').NODE} */
 export const NODE = "/home/rwm/.local/share/nvm/v18.6.0/bin/node";
@@ -30,7 +30,7 @@ export const LC_NAME = "en_GB.UTF-8";
 export const LC_MONETARY = "en_GB.UTF-8";
 
 /** @type {import('$env/static/private').KITTY_PID} */
-export const KITTY_PID = "9421";
+export const KITTY_PID = "1564";
 
 /** @type {import('$env/static/private').XCURSOR_SIZE} */
 export const XCURSOR_SIZE = "24";
@@ -59,14 +59,11 @@ export const XDG_SESSION_TYPE = "wayland";
 /** @type {import('$env/static/private').npm_package_devDependencies__typescript_eslint_parser} */
 export const npm_package_devDependencies__typescript_eslint_parser = "^5.27.0";
 
-/** @type {import('$env/static/private').PNPM_HOME} */
-export const PNPM_HOME = "/home/rwm/.local/share/pnpm";
-
 /** @type {import('$env/static/private').nvm_current_version} */
 export const nvm_current_version = "v18.6.0";
 
 /** @type {import('$env/static/private').SYSTEMD_EXEC_PID} */
-export const SYSTEMD_EXEC_PID = "529";
+export const SYSTEMD_EXEC_PID = "520";
 
 /** @type {import('$env/static/private').npm_package_scripts_build} */
 export const npm_package_scripts_build = "vite build";
@@ -96,7 +93,7 @@ export const npm_package_devDependencies_typescript = "^4.7.4";
 export const npm_package_version = "0.0.1";
 
 /** @type {import('$env/static/private').SWAYSOCK} */
-export const SWAYSOCK = "/run/user/1000/sway-ipc.1000.651.sock";
+export const SWAYSOCK = "/run/user/1000/sway-ipc.1000.641.sock";
 
 /** @type {import('$env/static/private').npm_package_devDependencies__typescript_eslint_eslint_plugin} */
 export const npm_package_devDependencies__typescript_eslint_eslint_plugin = "^5.27.0";
@@ -111,7 +108,7 @@ export const npm_package_scripts_prepare = "svelte-kit sync";
 export const KITTY_WINDOW_ID = "1";
 
 /** @type {import('$env/static/private').INVOCATION_ID} */
-export const INVOCATION_ID = "0c05402e8486423c95935de9a3e8229f";
+export const INVOCATION_ID = "b609036086e44eeba76af332cabb8093";
 
 /** @type {import('$env/static/private')._tide_location_color} */
 export const _tide_location_color = "\u001b[38;2;95;215;0m";
@@ -131,11 +128,11 @@ export const npm_package_devDependencies_svelte_check = "^2.7.1";
 /** @type {import('$env/static/private').XDG_SESSION_CLASS} */
 export const XDG_SESSION_CLASS = "user";
 
-/** @type {import('$env/static/private').TERM} */
-export const TERM = "xterm-kitty";
-
 /** @type {import('$env/static/private').LC_IDENTIFICATION} */
 export const LC_IDENTIFICATION = "en_GB.UTF-8";
+
+/** @type {import('$env/static/private').TERM} */
+export const TERM = "xterm-kitty";
 
 /** @type {import('$env/static/private').TERMINFO} */
 export const TERMINFO = "/usr/lib/kitty/terminfo";
@@ -222,7 +219,7 @@ export const npm_package_devDependencies_eslint_plugin_svelte3 = "^4.0.0";
 export const BROWSER = "firefox";
 
 /** @type {import('$env/static/private').PATH} */
-export const PATH = "/home/rwm/Dev/SavePO/node_modules/.bin:/home/rwm/.local/share/nvm/v18.6.0/lib/node_modules/pnpm/dist/node-gyp-bin:/home/rwm/.local/share/nvm/v18.6.0/bin:/home/rwm/.local/share/pnpm:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl";
+export const PATH = "/home/rwm/Dev/SavePO/node_modules/.bin:/home/rwm/.local/share/nvm/v18.6.0/lib/node_modules/pnpm/dist/node-gyp-bin:/home/rwm/.local/share/nvm/v18.6.0/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl";
 
 /** @type {import('$env/static/private').npm_config_node_gyp} */
 export const npm_config_node_gyp = "/home/rwm/.local/share/nvm/v18.6.0/lib/node_modules/pnpm/dist/node_modules/node-gyp/bin/node-gyp.js";
