@@ -1,7 +1,3 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
 <h1 class="title">#SaveYourPostOffice Resources</h1>
 <ul>
   <a class="poster" href="/Click_and_Drop.pdf">
