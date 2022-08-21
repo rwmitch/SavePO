@@ -59,21 +59,70 @@
   }
 </style>-->
 
+<svelte:head>
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+</svelte:head>
 
-<h1 class="title">#SaveYourPO</h1>
-<p>Post Offices across the country are being paid less than minimum wage by Post Office Ltd (POL), leading to the closure of many branches.</p>
-<p>We have just two simple demands:</p>
+<h1 class="title">#SaveYourPostOffice</h1>
+<section class="intro">
+  <p>Post Offices across the country are being paid less than minimum wage by Post Office Ltd (POL), leading to the closure of many branches.</p>
+  <p>We are no longer paid any salary, our pay is only commission based.</p>
+  <b>We have just two simple demands:</b>
+</section>
 <section class="demands">
-  <article class="demand">
+  <article class="demand rates">
     <p class="demand-headline">Increase remuneration rates for all transactions</p>
+    <p class="demand-explanation">Currently remuneration rates are very low for all transactions. In fact, many transactions have absolutely no remuneration</p>
   </article>
-  <article class="demand">
+  <article class="demand mains">
     <p class="demand-headline">Pay all branches the same rate as Main branches</p>
+    <p class="demand-explanation">Main branches are paid more than Local and Traditional model branches. We believe this is a form of discrimination by POL, and should no longer be tolerated by us.</p>
   </article>
 </section>
 
 <style lang="scss">
-  body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  :global(body) {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  h1.title {
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    color: red;
+  }
+
+  section.intro {
+    width: 70vw;
+    margin: 10px auto;
+    text-align: center;
+  
+    b {
+      font-size: 24px;
+    }
+  }
+
+  section.demands {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  article.demand {
+    width: calc(100% - 10px);
+    padding: 5px;
+    text-align: center;
+  }
+
+  article.demand.rates {
+    background-color: #ff8b8b;
+  }
+
+  article.demand.mains {
+    background-color: #9fd1ff;
+  }
+
+  p.demand-headline {
+    font-family: 'Krona One', sans-serif;
   }
 </style>
